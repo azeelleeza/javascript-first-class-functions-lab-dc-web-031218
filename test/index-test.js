@@ -50,6 +50,7 @@ describe('index', function() {
 
   describe('Multiplier functions created with `createMultiplierBonus`', function () {
     it('should have a doubler function', function () {
+      console.log(doubler);
       expect(doubler).toExist();
       expect(doubler).toBeA('function');
       expect(doubler(5)).toEqual(10);
